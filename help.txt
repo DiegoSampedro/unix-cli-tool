@@ -1,0 +1,28 @@
+
+NAME
+       ccwc - print newline, word, and byte counts for a file
+
+SYNOPSIS
+       ccwc [OPTION]... [FILE]...
+
+DESCRIPTION
+       Print  newline,  word, and byte counts for a FILE.
+
+       The options below may be used to select which counts are printed, always in the following order: newline, word, byte.
+
+       -c [file path]
+              print the byte counts
+
+       -l [file path]
+              print the newline counts
+
+       -w [file path]
+              print the word counts
+
+       [file path]
+              prints the word count, new lines count and the byte count
+
+       -help, -h,  display this help and exit
+
+AUTHOR
+       Written by Diego Sampedro.
